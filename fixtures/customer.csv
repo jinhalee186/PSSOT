@@ -1,0 +1,4 @@
+customer_id,name,segment,email,created_at
+C-1001,Northwind Retail,enterprise,ops@northwind.example,2024-01-12
+C-1002,Harbor Labs,mid-market,hello@harbor.example,2024-03-04
+C-1003,Pike Grocery,smb,owner@pike.example,2024-06-18

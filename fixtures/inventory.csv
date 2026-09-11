@@ -1,0 +1,4 @@
+domain,data_asset,description,source_system,data_owner,format,volume,frequency,access_method,api_availability,required,status,notes
+Customer,customer_master,Customer accounts,crm,data-office,CSV,3 rows,daily,file,yes,required,ACTIVE,Authoritative customer list
+Product,product_catalog,Sellable products,pim,merch,CSV,3 rows,weekly,file,yes,required,ACTIVE,
+Order,order_facts,Orders and line totals,oms,ops,CSV,3 rows,hourly,file,yes,required,ACTIVE,

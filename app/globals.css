@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #1c1712;
+  --ink-soft: #5c5348;
+  --paper: #f4efe6;
+  --paper-2: #ebe4d6;
+  --rule: #d9d0c0;
+  --rust: #b44a28;
+  --rust-deep: #8a341c;
+  --forest: #245c45;
+  --gold: #c4a15a;
+}
+
+html,
+body {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+body {
+  font-family: var(--font-sans), var(--font-kr), ui-sans-serif, system-ui, sans-serif;
+  background-image:
+    radial-gradient(ellipse at top left, rgba(180, 74, 40, 0.06), transparent 42%),
+    linear-gradient(180deg, #f7f2ea 0%, #f1eadc 100%);
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+.serif {
+  font-family: var(--font-serif), Georgia, serif;
+}
+
+html[lang="ko"] body {
+  font-family: var(--font-kr), var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+html[lang="ko"] h1,
+html[lang="ko"] h2,
+html[lang="ko"] h3,
+html[lang="ko"] .serif {
+  font-family: var(--font-kr), var(--font-serif), Georgia, serif;
+}
+
+.rule {
+  border-color: var(--rule);
+}
+
+.prose-ssot h1 { font-size: 1.6rem; margin: 1.2rem 0 0.6rem; }
+.prose-ssot h2 { font-size: 1.2rem; margin: 1.1rem 0 0.45rem; }
+.prose-ssot h3 { font-size: 1.05rem; margin: 0.9rem 0 0.35rem; }
+.prose-ssot p, .prose-ssot li { color: var(--ink-soft); line-height: 1.55; }
+.prose-ssot ul { padding-left: 1.1rem; list-style: disc; }
+.prose-ssot table { width: 100%; font-size: 0.85rem; border-collapse: collapse; margin: 0.6rem 0; }
+.prose-ssot th, .prose-ssot td { border: 1px solid var(--rule); padding: 0.35rem 0.5rem; text-align: left; }
+.prose-ssot code { font-size: 0.82em; background: var(--paper-2); padding: 0.05rem 0.3rem; }
+.prose-ssot blockquote { border-left: 3px solid var(--rust); padding-left: 0.8rem; color: var(--ink-soft); margin: 0.8rem 0; }
+
+.react-flow__node { font-family: var(--font-sans); }
