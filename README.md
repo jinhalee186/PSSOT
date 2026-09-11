@@ -1,6 +1,33 @@
-# PSSOT — Project Management Package Generating System
+# PSSOT 
+
+## Project Single Source of Truth Platform
+
+> Customer data in. Governed project package out.
 
 Transforms customer-provided information into a **Project Single Source of Truth (SSOT)** and generates PM, business, data, technical, architecture, and AI artifacts as **views** of that SSOT.
+
+
+---
+
+## Status
+
+🚧 **Active Development**
+
+PSSOT is currently under active development and is not yet production ready.
+
+Core capabilities currently available:
+
+- Project SSOT management
+- Dynamic Domain Registry
+- Data Inventory
+- Data Dictionary workflow
+- Ontology generation
+- Customer Data Package export
+
+---
+
+## Screenshot
+docs/images/scr1.png
 
 ## Principle
 
