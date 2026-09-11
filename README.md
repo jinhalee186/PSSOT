@@ -27,7 +27,7 @@ Core capabilities currently available:
 ---
 
 ## Screenshot
-docs/images/scr1.png
+![Ps/images/scr1.png
 
 ## Principle
 
